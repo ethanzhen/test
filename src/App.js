@@ -20,7 +20,7 @@ export default class App extends Component {
 
 				{title:"卖座卡", icon:"icon-tickets", path:"/tickets"},
 				{title:"商城", icon:"icon-shopping", path:"/shopping"},
-
+				{title:"商城", icon:"icon-shopping", path:"/shopping"},
 				{title:"我的", icon:"icon-mine", path:"/mine"}
 
 			],
