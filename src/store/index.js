@@ -8,7 +8,12 @@ let reducer = function(state, action){
 		}
 	}
 	
+// hahaha
+
 	return state;
+
+     
+
 	
 }
 
