@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+img{
+	display: block;
+}
+body{
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul, li{
+	list-style: none;
+}
+.one-top-px{
+	position: relative;
+}
+.one-top-px:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #999;
+	position: absolute;
+	/*top: -1px;*/
+	left: 0;
+	transform: scaleY(0.5);
+}
+.one-bottom-px{
+	position: relative;
+}
+.one-bottom-px:after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #ddd;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	transform: scaleY(0.5);
+}
+.tabs{
+	width: 100%;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	background: #fff;
+}
+.tabs a{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.tabs a.active span:first-of-type{
+	color: #FF4400;
+	text-decoration: underline;
+	font-size: 28px;
+}
+.tabs a span{
+	flex: 1;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.tabs a span.hidden{
+	display: none;
+}
+.tabs a span:first-of-type{
+    padding-top: 8px;
+    font-size: 18px;
+}
+.page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 49px;
+	width: 100%;
+	z-index: 10;
+}
+#Allheader{
+	background: #fff;
+	position: relative;
+}
+#Allheader h1{
+	font-size: 18px;
+	width:100%;
+	height:44px;
+	line-height: 44px;
+	text-align: center;
+}
+#Allheader span{
+	position: absolute;	
+	top:0.27rem;
+	left:0.3rem;
+}

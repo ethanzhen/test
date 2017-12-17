@@ -1,0 +1,243 @@
+#homeheader{
+	width:100%;
+	height:auto;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#homeheader .headertitle{
+	width:100%;
+	height: 44px;
+	position: relative;
+}
+.headertitle h1{
+	font-size: 18px;
+	width:100%;
+	height:44px;
+	line-height: 44px;
+	text-align: center;
+}
+.headertitle span{
+	position: absolute;	
+}
+.headertitle .iconfont{	
+	top:0.27rem;
+	left:0.3rem;
+}
+.headertitle span:nth-of-type(2){
+	top:0.2rem;
+	left:0.85rem;
+}
+#homeheader nav, #homeheader .nav-tab{
+	width:100%;
+}
+#homeheader .nav-tab{
+	display: flex;	
+}
+#homeheader .nav-tab a{
+	text-align: center;
+	flex: 1;
+}
+#homeheader .nav-tab a span.active{
+	border-bottom: 1px solid #f40;
+}
+#homebanner{
+	width:100%;
+	height:1.8rem;
+}
+#homebanner img{
+	width:100%;
+	height:100%;
+}
+#homelist{
+	width:100%;
+}
+#homelist .list-box{
+	width:100%;
+}
+#homelist .list-box .list-top{
+	display: flex;
+}
+#homelist .list-box .list-top .list-img{
+	width:1.34rem;
+}
+#homelist .list-box .list-top .list-img img{
+	width:1rem;
+	height:1.35rem;
+	padding:0.25rem 0.17rem;
+}
+#homelist .list-box .list-top .list-info{
+	flex:1;
+	position: relative;
+}
+#homelist .list-box .list-top .list-info span{
+	position: absolute;
+	top:0.27rem;
+	right:0.3rem;
+}
+#homelist .list-box .list-top .list-info h3{
+	padding-top:0.27rem ;
+}
+#homelist .list-box .list-top .list-info p{
+	line-height: 0.5rem;
+}
+#hotActivityList{
+	background: #FF4400;
+}
+#comingSoonList{
+	background: #666666;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	top: 1.15rem;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+.IScontent{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.Cinecontent{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.slide{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	background: #fff;
+	z-index: 10;
+}
+#FilmDetails .DetailsHeader-title{
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	height:44px;
+	color: #fff;
+	background: rgba(0,0,0,.4);
+	z-index: 10;
+}
+.DetailsHeader-title span{
+	position: absolute;
+	top:0.2rem;
+}
+.DetailsHeader-title span:nth-of-type(1){
+	left:0.8rem;
+}
+.DetailsHeader-title span:nth-of-type(2){
+	left:4.2rem;
+}
+.DetailsHeader-title span:nth-of-type(3){
+	left:5.2rem;
+}
+#FilmDetails .FilmDetailsHeader{
+	height: 5.6rem;
+	position: relative;
+}
+#FilmDetails .FilmDetailsHeader img{
+	width:100%;
+	height: 5.6rem;
+}
+#FilmDetails .FilmDetailsHeader .DetailsHeader-info{
+	width:100%;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	height:1.76rem;
+	background: rgba(0,0,0,.4);
+	color:#fff;
+}
+#FilmDetails .byNow{
+	width: 100%;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#FilmDetails .byNow div:nth-of-type(1){
+	float: left;
+	line-height: 44px;
+}
+#FilmDetails .byNow div:nth-of-type(1) span{
+	padding-left: 0.2rem;
+}
+#FilmDetails .byNow div:nth-of-type(2){
+	float: right;
+	height: 100%;
+	line-height: 44px;
+	padding:0 0.2rem;
+	background: #FF4400;
+}
+.DetailsHeader-info h2{
+	padding: 0.1rem 0 0.3rem 0.1rem;
+}
+.DetailsHeader-info span{
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 2px ;
+	padding: 0.1rem;
+	margin-left: 0.1rem;
+}
+.DetailsHeader-info span:nth-last-child{
+	border: none;
+}
+#FilmDetails .FilmDetailsIntro{
+	width:100%;
+}
+#FilmDetails .FilmDetailsIntro p{
+	border: 1px solid #ccc;
+	margin: 0.36rem 0.2rem;
+	padding: 0.36rem 0.2rem;
+	color: #999;
+}
+#address{
+	bottom: 0;
+}
+.address-header{
+	width:100%;
+	height:44px;
+	line-height: 44px;
+	position: relative;
+}
+.address-header h3{
+	width:100%;
+	text-align: center;
+}
+.address-header span{
+	position: absolute;
+	top:0.03rem;
+	left:0.28rem;
+}
+.address-title{
+	background: #ccc;
+	padding: 0.15rem 0.2rem;
+}
+.hotCity span, .location span,.city{
+	padding: 0.18rem 0.28rem;
+}
+.IScontent{
+	width: 100%;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;	
+}

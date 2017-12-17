@@ -1,0 +1,57 @@
+
+@font-face {
+	font-family: "iconfont";
+    src: url('../font/iconfont.ttf');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-address:before { 	
+	content: "\e611";
+}
+
+.icon-film:before { 	
+	content: "\e600";
+}
+
+.active .icon-film:before{
+	content: "\e63b";
+} 
+
+.icon-cinema:before { 
+	content: "\e69b";
+}
+
+.active .icon-cinema:before{
+	content: "\e76b";
+} 
+
+.icon-tickets:before { 
+	content: "\e60e"; 
+}
+
+.active .icon-tickets:before{
+	content: "\e645"; 
+}
+
+.icon-shopping:before { 
+	content: "\e646";
+}
+
+.active .icon-shopping:before{
+	content: "\e64b";
+}
+
+.icon-mine:before { 
+	content: "\e601";
+}
+
+.active .icon-mine:before{
+	content: "\e602";
+}

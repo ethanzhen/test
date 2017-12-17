@@ -1,0 +1,27 @@
+#tickets{
+	color: #666;
+}
+#tickets input{
+	display: block;
+	margin: 1.2rem auto;
+	width:80%;
+	height:0.4rem;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+#tickets .regORfor{
+	padding-left: 50%;
+}
+#tickets .regORfor a:nth-of-type(2){
+	padding-left:0.15rem;
+}
+#tickets .login{
+	margin-top: 0.4rem;
+	text-align: center;
+}
+#tickets .login button{
+	border: none;
+	padding: 0.3rem 0.5rem;
+	background: #999999;
+	border-radius: 10px;
+}
